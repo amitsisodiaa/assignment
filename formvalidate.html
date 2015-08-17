@@ -1,0 +1,65 @@
+<html>
+<head>
+<script>
+$("#commentForm").validate();
+</script>
+<body>
+<form class="cmxform" id="commentForm" method="get" action="">
+<table  width="20%" bgcolor="99FFFF" align="center">
+<tr>
+<td colspan=2>
+<center><font size=4><b>My Detail</b></font></center>
+</td>
+</tr>
+<tr>
+<td>firstName</td>
+<td><input type=text id=firstname name="firstname"  placeholder="enter your name here"  size="30" required></td>
+</tr>
+<tr>
+<td>Last Name</td>
+<td><input type="text" placeholder="enter last name here" name="lastname" id="lastname"
+size="30" required></td>
+</tr>
+<tr>
+<td> Address</td>
+<td><input type="text" placeholder="enter your address here" name="address" id="address"
+id="personaladdress" size="30" required></td>
+</tr>
+<tr>
+<td>Country</td>
+<td><select id="Country" required>
+<option value="-1" selected>select..</option>
+<option value="India">India</option>
+<option value="China">china</option>
+<option value="Canada">canada</option>
+<option value="Rasia">Rasia</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Age</td>
+<td><input type="text" placeholder="enter your age here" name="age" id="age" size="30" required></td>
+</tr>
+<tr>
+<td>EmailId</td>
+<td><input type="text" name="emailid" placeholder="enter your emailid here" id="emailid" size="30" required></td>
+</tr>
+
+<tr>
+<td>MobileNo</td>
+<td><input type="text" name="mobileno" id="register" placeholder="enter your mobile here" id="mobileno" size="30" required></td>
+</tr>
+<tr>
+<td>Image</td>
+<td><input type="file" name="filename" accept="image/gif, image/jpeg, image/png" required></td>
+</tr>
+<tr>
+
+<td>
+<input class="submit" type="submit" value="Submit form"></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html> 
