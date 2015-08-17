@@ -1,0 +1,133 @@
+1.Command to view current working directory  
+ans - (pwd)
+
+2.Command for create file
+ans- (touch)
+
+3.Command for create directory
+filte/search from output of any command
+ans-(mkdir)  
+
+4.Command Traverse between directory
+ans-(cd..) (cd/)
+
+5.Command Traverse between directory
+ans- (cp)
+
+6.Command to remove the file
+ans. (rm)
+
+7.Command to move the file
+ans. (mv)
+
+8.Command to view the command history
+ans. (history)
+
+9.Command to view the command history
+ans. (find)
+
+10.filte/search from output of any command 
+ans.()
+
+11.Command to Difference between two files.
+ans. (diff)
+
+12. Convert folder to zip file   
+ans.(zip)
+
+13.Unzip file command 
+(unzip)    
+
+14.Command to install any software  
+ans.(apt-get install)
+
+15.command for ssh login  
+ans. (ssh<username>@<computer name or ip>)
+
+16.copy folder from server to local and local to server through command
+ans. (scp)
+
+17.Command for change the file permission  
+ans. (chmod)
+
+18.Initialize a project with git 
+ans. (git init)
+
+19.Clone a project from git  
+(git clone)
+
+20.Type of clone and difference between them
+ans.
+
+21.Create Branch  
+ans.(git branch [branch name])
+
+23.Merge git branch
+ans.(git merge)
+
+24.Rebase branch 
+ans. (git rebase)
+
+
+25.View the history of commit 
+ans.(git log)
+
+26.pull code from git
+ans.(If the local branch b does not exist, then git pull and then simply git checkout b and the branch will be created automatically. 		Otheroptions would include a git fetch origin/b)
+
+
+27.Command for list all the added ssh key
+ans. (ls ~/.ssh/*.pub)
+
+28.Steps to generate and add ssh key
+ans.(Step 1: Check for existing SSH keys$ ls ~/.ssh # Lists the files in your ~/.ssh directory 
+	Check the returned list to see if you have a file called id_rsa.pub, if you do you can skip to step 3 otherwise continue on to step 2.
+
+	Step 2: Generate a new SSH key
+	$ ssh-keygen ## => Enter file in which to save the key (/Users/<b>your_username</b>/.ssh/id_rsa)
+	
+	Step 3: Add your SSH key to Codebase
+	$ pbcopy < ~/.ssh/id_rsa.pub )
+
+ 	(Step 4: Make sure everything works
+	$ ssh -T git@codebasehq.com # Attempts to SSH to Codebase)
+
+
+29. Commands to verify that you have successfully connected with github or not
+ans.(ssh -vT git@github.com)
+
+30.How to Manage multiple ssh key for github
+ans.
+
+31.How would you handle if you are trying to clone any project from git through ssh and getting permission error
+ans.
+
+32.Command to change git config name and email
+ans.(git config --global user.name [your user name]
+     git config --global user.email [your email address here]
+
+33.Command to view the current git user name and email
+ans. ( git config user.name git config user.email)
+
+34.git Command to delete all local changes and revert the deleted code (two commands)
+ans.( git checkout .	git clean -f)
+
+35.How To change the commit message if you have committed locally
+ans.(git commit --amend)
+
+36.How to change the commit message if you have pushed on live server.
+ans.(git commit --amend -m "New commit message"))
+
+37.How to delete last two commit from local and server. 
+(git commit --amend -m "New commit )
+
+
+
+
+
+
+
+
+
+How to change the commit message if you have pushed on live server.
+How to delete last two commit from local and server.                              (git commit --amend -m "New commit message")
